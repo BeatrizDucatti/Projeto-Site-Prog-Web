@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: white;
+    padding: 10px 0;
+    border-bottom: 1px solid #16507b;  
+}
+
+.logo{
+    color: #16507b;
+}
+
+.logo h2{
+    font-size: 30px;
+}
+
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+
+.menu a{
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.4s;
+}
+
+.menu a:hover{
+    color: #007bff;
+}
+
+/*
+Plano de Ensino
+*/
+
+.plano h3{
+    color: #124265;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.plano p{
+    color: #124265;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+
+/*
+Section Main
+*/
+
+section.main{
+    padding: 40px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main_cta{
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.main_cta h1{
+    color: #16507b;
+    font-size: 50px;
+
+}
+
+.main_cta p{
+    color: gray;
+    font-size:  25px;
+    margin:10px 0;
+
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferenciais-single{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: 19%;
+    margin-right: 1%;
+    padding: 50px 20px;
+}
+
+
+.diferenciais-single h2{
+    color: #124265;
+    font-size: 25px;
+
+}
+
+.diferenciais-single h3{
+    color: #124265;
+    margin:5px 0;
+    font-size: 20px;
+
+}
+
+.diferenciais-single p{
+    color: #124265;
+    margin:5px 0;
+    font-size: 15px;
+    text-align: left;
+
+}
+
+.diferenciais-single a{
+    color: #124265;
+    margin:5px 0;
+    font-size: 15px;
+    margin-left: 0;
+    transition: 0.3s;
+
+}
+
+.diferenciais-single li{
+    color: #124265;
+    margin:5px 0;
+    font-size: 15px;
+    margin-left: 20px;
+
+}
+
+.diferenciais-single a:hover{
+color: #007bff;
+}
+
+
+section.sobre{
+    padding: 60px 0;
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+}
+
+.chamada-sobre h2{
+    color: #124265;
+    text-transform: uppercase;
+
+}
+
+.chamada-sobre p{
+    font-size: 18px;
+    color: gray;
+    margin: 5px 0;
+
+}
+
+.conteudo-sobre{
+   text-align: justify;
+}
+
+.conteudo-sobre p{
+    margin: 0 20px;
+    color: #124265;
+}
+
+.link-sobre a{
+    color: #124265;
+    display: flex;
+    padding-left: 0px;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.4s
+    
+}
+
+.link-sobre a:hover{
+    color: #007bff;
+}
+
+.link-sobre li{
+    color: #124265;
+    margin-left: 30px;
+    
+}
+
+
+/*
+Monitoria
+*/
+
+.monitoria h3{
+    color: #124265;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.monitoria p{
+    color: #124265;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.monitoria li{
+    color: #124265;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.monitoria a{
+    color: #124265;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+
+.monitoria a:hover{
+    color: #007bff;
+}
+
+
+/*
+Ebook
+*/
+
+.ebook h2{
+    color: #124265;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.ebook p{
+    color: #124265;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.ebook li{
+    color: #124265;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.ebook a{
+    color: #124265;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.ebook a:hover{
+    color: #007bff;
+}
+
+/*
+Fixacao
+*/
+
+
+.fixacao h2{
+    color:#124265;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.fixacao p{
+    color: #124265;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.fixacao li{
+    color: #124265;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.fixacao a{
+    color: #124265;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.fixacao a:hover{
+    color: #007bff;
+}
+
+/*
+projeto final
+*/
+
+.zero p{
+    color: #124265;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.primeiro h4{
+    color: #124265;
+    margin-left: 20px;
+}
+
+.primeiro p{
+    color: #124265;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.primeiro li{
+    color: #124265;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.primeiro a{
+    color: #124265;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.primeiro a:hover{
+    color: #007bff;
+}
+
+.final h2{
+    color: #124265;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.final p{
+    color: #124265;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.final a{
+    color: #124265;
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.final li{
+    color: #124265;
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.final a:hover{
+    color: #007bff;
+}
+
+
+/*
+material complementar
+*/
+
+.material h2{
+    color: #124265;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.material p{
+    color: #124265;
+    font-size: 15px;
+    margin-left: 20px;
+
+}
+
+.material a{
+    color: #124265;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.material li{
+    color: #124265;
+    margin-left: 20px;
+}
+
+.material a:hover{
+    color: #007bff;
+}
+
+/*
+referencias
+*/
+
+section.referenciais{
+    padding: 60px 0;
+}
+
+.titulo-referencia{
+    width: 100%;
+    text-align: center;
+}
+
+.titulo-referencia h2{
+    color: #124265;
+    text-transform: uppercase;
+
+}
+
+.titulo-referencia p{
+    font-size: 18px;
+    color: gray;
+    margin: 10px;
+
+}
+
+.link-referencia{
+    text-align: justify;
+
+}
+
+.link-referencia a{
+    color: #124265;
+    display: flex;
+    padding-left: 0px;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+.link-referencia a:hover{
+    color: #007bff;
+}
+
+.link-referencia li{
+    color: #124265;
+    margin-left: 180px;
+    
+}
+
+.conteudo-referencia p{
+    text-align: justify;
+    color: #124265;
+    display: flex;
+    padding-left: 30px;
+    font-size: 13px;
+    margin-left: 150px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .diferenciais-single{
+        width:100%;
+        margin-bottom: 20px;
+    }
+}
